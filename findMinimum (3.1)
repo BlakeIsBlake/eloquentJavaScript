@@ -1,0 +1,10 @@
+function findMinimum(first, second){
+    if(first < second){
+     return first;   
+    }
+    else{
+     return second;   
+    }
+}
+
+console.log(findMinimum(5, 10));
