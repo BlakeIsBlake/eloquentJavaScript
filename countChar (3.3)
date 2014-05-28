@@ -1,0 +1,15 @@
+function countChar(phrase, letter){
+    var count = 0;
+    for(var i = 0; i < phrase.length; i++){
+        if(phrase.charAt(i) == letter){
+            count++;
+        }
+    }
+    return count;
+}
+
+function countBs(phrase){
+    return countChar(phrase, "B");
+}
+
+console.log(countBs("BUMBLEBEE"));
