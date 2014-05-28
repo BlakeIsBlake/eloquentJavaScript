@@ -1,0 +1,9 @@
+function loopTriangle(height){
+    var hashString = "";
+    for(var i = 0; i < height; i++){
+        hashString = hashString + "#";
+        console.log (hashString);
+    }
+}
+
+loopTriangle(7);
